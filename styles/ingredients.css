@@ -1,0 +1,42 @@
+.img-food{
+   height: 100%;
+}
+
+.food-slide{
+    height:80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ingredient-desc{
+    display:none;
+}
+
+.caro-btn{
+    transform: scale(2);
+}
+
+@media (max-width: 600px){
+    .carousel-caption{
+        display:none;
+    }
+    .ingredient-desc{
+        display:block;
+    }
+
+    .caro-btn{
+        transform: scale(2);
+    }
+
+    .img-food{
+        height:80%;
+
+    }
+
+    .food-slide{
+        height: 55vh;
+        justify-content: flex-start;
+    }
+    
+}
