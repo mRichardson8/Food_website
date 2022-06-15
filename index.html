@@ -12,11 +12,32 @@
 </head>
 <body>
    <header class="shadow-lg ">
-    <nav class="navbar px-1 py-3 mx-5 sticky-top">
-        <a href="./index.html"><button class = "btn btn-labelled " type="button"><span class="btn-label">Home</span></button></a>
-        <a href="./ingredients.html"><button class = "btn btn-labelled " type="button"><span class="btn-label">Ingredients</span></button></a>
-        <a href="./places.html"><button class = "btn btn-labelled " type="button"><span class="btn-label">Places</span></button></a>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+        <div class="container-fluid">
+        <!-- <a class="navbar-brand" href="#">Logo</a> -->
+        <img class="navbar-brand" src="./assets/logo.webp" alt="Lights" style="width:3%">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./ingredients.html">Ingredients</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./places.html">Places</a>
+            </li>    
+            </ul>
+        </div>
+        </div>
     </nav>
+
+
+
    </header>
    <main>
         <div class="container-fluid mt-3">
@@ -35,17 +56,17 @@
             <div class="row">
                 <div class="col-md-4">
                   <div class="thumbnail">
-                      <img src="spaghetti1.jpg" alt="Lights" style="width:100%">
+                      <img src="./assets/spaghetti1.jpg" alt="Lights" style="width:100%">
                   </div>
                 </div>
                 <div class="col-md-4">
                   <div class="thumbnail">
-                      <img src="spaghetti2.jpg" alt="Nature" style="width:100%">
+                      <img src="./assets/spaghetti2.jpg" alt="Nature" style="width:100%">
                   </div>
                 </div>
                 <div class="col-md-4">
                   <div class="thumbnail">
-                      <img src="spaghetti3.jpg" alt="Fjords" style="width:100%">
+                      <img src="./assets/spaghetti3.jpg" alt="Fjords" style="width:100%">
                   </div>
                 </div>
               </div>
