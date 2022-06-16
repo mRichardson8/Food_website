@@ -15,9 +15,13 @@
 
 .caro-btn{
     transform: scale(2);
+    margin: 10px;
 }
 
 @media (max-width: 600px){
+    .img-food{
+        height:85%
+    }
     .carousel-caption{
         display:none;
     }
@@ -26,17 +30,12 @@
     }
 
     .caro-btn{
-        transform: scale(2);
-    }
-
-    .img-food{
-        height:80%;
-
-    }
-
-    .food-slide{
-        height: 55vh;
-        justify-content: flex-start;
+        transform: scale(3);
+        margin: 15px;
     }
     
+    .ingredients-content{
+        display:flex;
+        flex-direction: column;
+    }
 }
